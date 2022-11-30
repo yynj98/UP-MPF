@@ -1,0 +1,9 @@
+__pycache__/
+out*/
+best_mm_results.txt
+rot_pretrain_49-1-94.36.bin
+rot_pretrain_49-2-95.93.bin
+rot_pretrain_49-3-96.35.bin
+rot_pretrain_49-4-96.47.bin
+rot_pretrain_49-5-96.54.bin
+rot_pretrain_49-6-96.93.bin
