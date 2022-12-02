@@ -12,6 +12,7 @@ The figure shows the architectures of previous approaches (a,b) and our MPF/UP-M
 
 - matplotlib 3.3.4
 - numpy 1.20.2
+- opencv-python 4.5.4.58
 - pillow 8.2.0
 - python 3.8
 - pytorch 1.7.1
@@ -20,7 +21,7 @@ The figure shows the architectures of previous approaches (a,b) and our MPF/UP-M
 - tqdm 4.59.0
 - transformers 4.6.0
 
-we mainly use `conda` commands to set up our environment and only use `pip` for installing `timm`.
+we mainly use `conda` commands to set up our environment but use `pip` to install `opencv-python`, `timm` and `transformers`.
 
 ## Prepare the data
 
