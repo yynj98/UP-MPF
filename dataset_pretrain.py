@@ -22,7 +22,7 @@ class RotationImgDataset(Dataset):
         self.template = ['[CLS] Image : " ', ' " . Rotation direction of the image : [MASK] . [SEP]']
         self.label_list = ['keep', 'left', 'right']
 
-        self.tokenizer = BertTokenizer.from_pretrained(args.model_name, local_files_only=True)
+        self.tokenizer = BertTokenizer.from_pretrained(args.model_name)
         self.vocab = self.tokenizer.get_vocab()
 
         self.label_id_list = [self.vocab[token] for token in self.label_list]

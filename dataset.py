@@ -17,7 +17,7 @@ class MSADataset(Dataset):
         self.data_dir = args.data_dir
         self.img_dir = args.img_dir
 
-        self.tokenizer = BertTokenizer.from_pretrained(args.model_name, local_files_only=True)
+        self.tokenizer = BertTokenizer.from_pretrained(args.model_name)
         self.vocab = self.tokenizer.get_vocab()
 
         self.prompt_token = args.prompt_token
